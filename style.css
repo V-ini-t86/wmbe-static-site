@@ -1,0 +1,260 @@
+* {
+  margin: 0;
+}
+
+body {
+  background: black;
+}
+section {
+  margin: 50px;
+  padding: 50px;
+}
+.navbar1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  background: #f5f5f5;
+}
+.brand {
+  color: #66becc;
+}
+.lists > ul {
+  list-style: none;
+  display: flex;
+  color: #747778;
+}
+.lists > ul > li {
+  margin-right: 20px;
+}
+
+.lists {
+  display: flex;
+  align-items: flex-start;
+}
+.lists > button {
+  color: red;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+/* section 1 */
+.section1 {
+  background: #f4f4f4;
+}
+.consulation {
+  padding: 40px;
+}
+.butn {
+  margin-left: 20px;
+  padding: 17px;
+  border-radius: 5px;
+  background: #63d0f7;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.section-h1 {
+  /* font-size: 1rem; */
+  font-weight: 400;
+  /* font-size: ; */
+}
+
+.section2 {
+  background-color: #f4f4f4;
+}
+.cards {
+  padding: 20px;
+  background: white;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.cards > h5 {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.cards > p {
+  font-size: 0.9rem;
+  margin-top: 20px;
+}
+
+.cards > ul {
+  margin-top: 20px;
+  padding-left: 15px;
+  margin-bottom: 60px;
+}
+.cards > button {
+  font-size: 1rem;
+}
+.see-btn {
+  display: flex;
+  align-items: center;
+  text-decoration: underline;
+}
+.cards > h5 {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+/* section - 3 */
+.section3 {
+  background-color: #f4f4f4;
+}
+.bcards {
+  background-color: white;
+  padding: 30px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+.bcards-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.section-h3 {
+  font-size: 1.4rem;
+}
+.request {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: white;
+  padding: 20px;
+}
+.request > button {
+  margin-left: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  background: #63d0f7;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.section4 {
+  background: #fff;
+}
+.buttons > button {
+  margin-right: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+.buttons {
+  margin-top: 30px;
+}
+.pro {
+  background: #63d0f7;
+}
+.laptop {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.laptop-single {
+  margin-left: 40px;
+  background: black;
+  color: white;
+  margin-bottom: 20px;
+  width: 500px;
+  padding: 40px;
+  border-radius: 10px;
+}
+.laptop-single > p {
+  width: 250px;
+  font-weight: 200;
+}
+/*  About */
+
+.about {
+  background: #f4f4f4;
+}
+.about-four {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.img1 {
+  width: 80%;
+}
+.about-div {
+  margin-bottom: 20px;
+}
+.about-div > p {
+  margin-top: 40px;
+}
+.about-div > h4 {
+  text-decoration: underline;
+  font-weight: 500;
+}
+/* Awards section */
+.awards-section {
+  background-color: #f4f4f4;
+}
+.awards-section > h1 {
+  margin-bottom: 100px;
+}
+.award1 > h5 {
+  font-size: 1rem;
+  font-weight: 500;
+  width: 250px;
+  margin-bottom: 50px;
+}
+/*  Women SEction */
+.women {
+  background-color: #f4f4f4;
+}
+.women > h2 {
+  margin-bottom: 50px;
+}
+.profile {
+  background-color: #fff;
+  margin-right: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.profile-desc {
+  display: flex;
+  align-items: center;
+}
+.profile-desc > img {
+  width: 150px;
+}
+.profile-head > h3 {
+  font-size: 1rem;
+}
+.profile-head > p {
+  font-size: 1.4rem;
+}
+/* Score section */
+
+.score {
+  background-color: #f4f4f4;
+}
+.score > h2 {
+  text-align: center;
+}
+.score-pic {
+  width: 100%;
+}
+.hire {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Contact-section */
+
+.contacts-section {
+  background-color: #f4f4f4;
+}
+.sub-btn {
+  text-align: center;
+}
